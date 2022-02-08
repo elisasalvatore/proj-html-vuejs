@@ -1,0 +1,22 @@
+@import './variables.scss';
+ // SECTIONS: OurServices, Portfolio, PriceList, Blog, Testimonial 
+
+.section-container {
+    // altezza specifica per ogni sezione
+    padding: 20px 40px;
+
+    .section-name {
+        color: $light-pink;
+        font-weight: 300;
+    }
+
+    .section-title {
+        padding: 5px 0;
+    }
+
+    p {
+        font-size: 10px;
+        font-weight: 300;
+    }
+}
+

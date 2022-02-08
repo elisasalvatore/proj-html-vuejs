@@ -1,7 +1,8 @@
 <template>
-    <div>
-        TESTIMONIAL
-        SPONSOR
+     <div class="section-container">
+        <div class="section-name">Testimonial</div>
+        <div class="section-title"><b>Titolo</b> Sezione</div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo odio unde dolores similique assumenda cupiditate aspernatur nobis</p>
     </div>
 </template>
 
@@ -12,8 +13,10 @@ export default ({
 </script>
 
 <style lang="scss" scoped>
-div {
-    height: 200px;
+@import '@/style/sectionsHeading.scss';
+
+.section-container {
+    height: 80vh;
     background-color: palegoldenrod;
 }
 </style>
