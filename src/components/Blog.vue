@@ -17,6 +17,6 @@ export default {
 
 .section-container {
     height: 60vh;
-    background-color: coral;
+    background-color: #fff;
 }
 </style>

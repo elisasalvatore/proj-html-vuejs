@@ -1,6 +1,7 @@
 <template>
     <div>
         SUBSCRIBE EMAIL
+        <button>MEDIUM</button>
     </div>
 </template>
 

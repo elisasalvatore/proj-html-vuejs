@@ -1,21 +1,36 @@
+@import './variables.scss';
+
+.blue-gradient {
+    background-color: $brg-blue;
+    background-image: linear-gradient(
+        $brg-blue, $brg-dark-blue
+    );
+}
+
 .container-jumbo {
     display: flex;
     justify-content: space-around;
     align-items: center;
     padding: 0 20px;
-    background-color: indianred ;
-    // .blue-gradient {
-    //   background-color: $brg-blue;
-    //   background-image: linear-gradient(
-    //       $brg-blue, $brg-dark-blue
-    //   );
-    // }
 
     .jumbo-box {
         display: flex;
         flex-direction: column;
         justify-content: center;
         border: 2px solid #fff;
+
+        .jumbo-title {
+            font-size: 40px;
+            color: #fff;
+        }
+
+        .jumbo-paragraph {
+            width: 300px;
+            margin: 20px 0;
+            font-size: 12px;
+            font-weight: 400;
+            color: $light-blue;
+        }
     }
 
 }

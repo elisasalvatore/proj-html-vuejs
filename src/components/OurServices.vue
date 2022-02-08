@@ -3,6 +3,8 @@
         <div class="section-name">Our Services</div>
         <div class="section-title"><b>Titolo</b> Sezione</div>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo odio unde dolores similique assumenda cupiditate aspernatur nobis</p>
+
+        <button>LARGE</button>
     </div>
 </template>
 
@@ -17,6 +19,6 @@ export default {
 
 .section-container {
     height: 80vh;
-    background-color: royalblue;
+    background-color: #fff;
 }
 </style>

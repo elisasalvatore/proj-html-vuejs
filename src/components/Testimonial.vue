@@ -17,6 +17,7 @@ export default ({
 
 .section-container {
     height: 80vh;
-    background-color: palegoldenrod;
+    background-color: #fff;
+    border: 2px solid red;
 }
 </style>

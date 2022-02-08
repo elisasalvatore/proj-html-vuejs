@@ -1,12 +1,12 @@
 <template>
     <div class="container-jumbo blue-gradient">
       <div class="jumbo-box">
-        <div>TITOLO</div>
-        <p>Testo azzurro</p>
+        <div class="jumbo-title"><b>Business Planning</b> Digital Technology <b>Modern Solution !</b></div>
+        <p class="jumbo-paragraph">When, while the lovely valley teems with vapour around meand the meridian sun strikes the upper surface.</p>
 
         <div class="container-buttons">
-          <button>BOTTONE</button>
-          <button>BOTTONE</button>
+          <button>MEDIUM</button>
+          <button>MEDIUM</button>
         </div>
       </div>
 
