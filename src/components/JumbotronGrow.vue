@@ -11,8 +11,8 @@
             <p class="jumbo-paragraph">When, while the lovely valley teems with vapour around meand the meridian sun strikes the upper surface. Of the impenetrable folliage of my trees, and but a few stray gleams steal into the inner sanctuary.</p>
 
             <div class="container-buttons">
-             <button>BOTTONE</button>
-             <button>BOTTONE</button>
+             <button>MEDIUM</button>
+             <button>MEDIUM</button>
             </div>
         </div>
     </div>
@@ -22,7 +22,6 @@
 
 export default ({
     name: 'JumbotronGrow',
-
 })
 </script>
 
@@ -53,15 +52,16 @@ export default ({
 
     .man {
         position: absolute;
+        top: 5%;
         left: 30%;
-        width: 300px;
+        width: 280px;
     }
 
     .graphic {
         position: absolute;
         left: 20%;
         bottom: 20%;
-        width: 300px;   
+        width: 280px;   
     }
 }
 

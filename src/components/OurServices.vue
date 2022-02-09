@@ -59,7 +59,8 @@ export default {
             padding: 40px;
 
             > img {
-                width: 100px;
+                width: 120px;
+                height: 110px;
             }
 
             .service-title {

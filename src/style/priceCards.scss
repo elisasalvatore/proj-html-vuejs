@@ -1,0 +1,104 @@
+@import './variables.scss';
+
+.section-container {
+    height: 80vh;
+    padding: 40px;
+    color: white;
+    background-color: $brg-blue;
+    background-image:
+    // doppio gradiente: 1.sopra blu (2.a sx chiaro a dx scuro) sotto bianco
+    linear-gradient(
+        $brg-blue 60%,
+        #fff 40%,
+    );
+
+    p {
+        width: 480px;
+        margin: 0 auto;
+        padding-bottom: 20px;
+    }
+
+    .price-cards {
+        display: flex;
+        justify-content: space-around;
+
+        .card.pink-gradient {
+            color: #fff;
+            background-color: $dark-pink;
+            background-image: linear-gradient(
+                to top left,
+                $light-pink,
+                $dark-pink, 
+            );
+        }
+
+        .card {
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            width: calc(100% / 3);
+            min-width: 240px;
+            max-width: 240px;
+            height: 300px;
+            border-radius: 20px;
+            margin: 20px 10px;
+            padding: 20px 0;
+            background-color: #fff;
+            color: #000;
+            
+
+            .number-background {
+                position: absolute;
+                top: -10%;
+                right: -5%;
+                font-size: 160px;
+                font-weight: bold;
+                color: rgba(51, 51, 51, 0.116);
+            }
+
+            .card-title {
+                font-size: 20px;
+                z-index: 1;
+            }
+
+            .card-subtitle {
+                font-size: 10px;
+                font-weight: 400;
+                letter-spacing: 1px;
+                padding: 5px 0;
+                z-index: 1;
+            }
+
+            .card-dollar-sign{
+                align-self: start;
+                position: relative;
+                left: 35%;
+                padding-top: 10px;
+                font-size: 10px;
+                z-index: 1;
+            }
+
+            .card-price {
+                font-size: 50px;
+                z-index: 1;
+            }
+
+            .card-month {
+                font-size: 10px;
+                font-weight: lighter;
+            }
+
+            .card-details {
+                font-size: 12px;
+                padding: 20px 10px;
+                font-weight: lighter;
+
+                .detail {
+                    margin: 5px 0;
+                }
+            }
+        }
+    }
+}

@@ -1,10 +1,10 @@
 @import './variables.scss';
- // SECTIONS: OurServices, Portfolio, PriceList, Blog, Testimonial 
+// SECTIONS: OurServices, Portfolio, PriceList, Blog, Testimonial 
 
 .section-container {
     // altezza specifica per ogni sezione
     // colore background specifico per ogni sezione
-    padding: 40px 0;
+    padding: 30px 0;
     text-align: center;
 
     .section-name {
@@ -15,7 +15,7 @@
 
     .section-title {
         font-size: 40px;
-        padding: 20px 0;
+        padding: 10px 0;
     }
 
     p {

@@ -2,14 +2,15 @@
     <div>
         <div class="section-container">
             <div class="section-top">
-                <div class="text">
+                <span class="text">
                     <div class="section-name">Portfolio</div>
-                    <div class="section-title"><b>Titolo</b> Sezione</div>
-                </div>
+                    <span class="section-title"><b>latest</b> work</span>
+                </span>
 
-                <div class="arrows-slider">
-                    FRECCE
-                </div>
+                <span class="arrows-slider">
+                    <span>&#x2190;</span>
+                    <span>&#x2192;</span>
+                </span>
             </div>
 
             <div class="section-down">
@@ -31,7 +32,9 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@import '@/style/variables.scss';
 @import '@/style/sectionsHeading.scss';
+
 
 .section-container {
     height: 60vh;
@@ -43,6 +46,23 @@ export default {
         justify-content: space-between;
         align-items: flex-end;
         padding: 0 60px;
+
+        .arrows-slider  > span {
+            height: 40px;
+            line-height: 40px;
+            margin: 10px;
+            padding: 6px 8px;
+            font-size: 20px;
+            color: $light-pink;
+            border: 1px solid $light-pink;
+            border-radius: 50px;
+            
+            &:hover {
+                cursor: pointer;
+                background-color: $light-pink;
+                color: #fff;
+            }
+        }
     }
 
     .section-down {
