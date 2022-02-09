@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <Header :navItems="navItems"/>
-    <MainContainer />
+    <MainContainer :services="services"/>
     <Footer :resources="resources" :links="links" :contacts="contacts"/>
   </div>
 </template>
@@ -15,7 +15,7 @@ export default {
   name: 'App',
   data() {
     return {
-      navItems: [
+      navItems: [ // NAV MENU
         'Home',
         'About',
         'Services',
@@ -23,7 +23,33 @@ export default {
         'Contact',
         'Portfolio',
       ],
-      links: [
+      // services: [ //SERVICES SECTION
+      //   {
+      //     id: 1,
+      //     image:'@/assets/images/Group-247.png',
+      //     title: 'Data Analysis',
+      //     paragraph: 'When, why the lovely valley teems with vapour around meand the meriadian sun strikes the upper'
+      //   },
+      //   {
+      //     id: 2,
+      //     image:'@/assets/images/Group-247.png',
+      //     title: 'Data Analysis',
+      //     paragraph: 'When, why the lovely valley teems with vapour around meand the meriadian sun strikes the upper'
+      //   },
+      //   {
+      //     id: 3,
+      //     image:'@/assets/images/Group-247.png',
+      //     title: 'Data Analysis',
+      //     paragraph: 'When, why the lovely valley teems with vapour around meand the meriadian sun strikes the upper'
+      //   },
+      //   {
+      //     id: 4,
+      //     image:'@/assets/images/Group-247.png',
+      //     title: 'Data Analysis',
+      //     paragraph: 'When, why the lovely valley teems with vapour around meand the meriadian sun strikes the upper'
+      //   }     
+      // ],
+      links: [ // FOOTER 
         'Services',
         'Contact',
         'Blog'

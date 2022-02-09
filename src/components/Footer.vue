@@ -38,7 +38,7 @@
                 © 2020 Phlox. All Rights Reserved.
             </div>
 
-            <div class="social"> 
+            <!-- <div class="social"> 
                 <font-awesome-icon icon="fa-brands fa-instagram" />
                 <div class="linkedin"></div>
                 <div class="facebook"></div>
@@ -46,7 +46,7 @@
 
                 <div class="arrow-top"></div>
                 <div class="chat"></div>
-            </div>
+            </div> -->
 
         </div>
     </footer>
@@ -65,5 +65,6 @@ export default {
 
 <style lang="scss" scoped>
 @import '@/style/footer.scss';
+@import url('https://use.fontawesome.com/releases/v5.7.1/css/all.css');
 
 </style>

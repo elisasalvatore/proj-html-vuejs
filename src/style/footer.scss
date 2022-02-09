@@ -1,5 +1,4 @@
 @import '@/style/variables.scss';
-@import url('https://use.fontawesome.com/releases/v5.7.1/css/all.css');
 
 // BACKGROUND COLOR
 .blue-gradient {
@@ -47,7 +46,7 @@ footer {
             li,
             .contact-value {
                 font-size: 12px;
-                color: #aaa;
+                color: $text-gray;
             }
 
             li {
@@ -92,14 +91,12 @@ footer {
 
         .copyright {
             font-size: 10px;
-            color: #aaa;
+            color: $text-gray;
             padding-left: 40px;
         }
 
-        .fa-brands {
-            font-family: "Font Awesome 5 Free";
-            font-weight: 900;
-            color: #fff;
-        }
+        // .fa-brands {
+        //     color: #fff;
+        // }
     }
 }

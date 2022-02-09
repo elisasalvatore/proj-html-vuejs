@@ -3,21 +3,27 @@
 
 .section-container {
     // altezza specifica per ogni sezione
+    // colore background specifico per ogni sezione
     padding: 40px 0;
     text-align: center;
 
     .section-name {
         color: $light-pink;
+        font-size: 12px;
         font-weight: 300;
     }
 
     .section-title {
-        padding: 5px 0;
+        font-size: 40px;
+        padding: 20px 0;
     }
 
     p {
+        margin-bottom: 20px;
         font-size: 10px;
         font-weight: 300;
+        letter-spacing: 1px;
+        color: $text-gray;
     }
 }
 

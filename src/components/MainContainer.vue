@@ -32,6 +32,6 @@ export default {
     Blog,
     Testimonial,
     SubscribeUserEmail,
-  }
+  },
 }
 </script>
