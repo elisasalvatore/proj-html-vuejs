@@ -35,6 +35,13 @@ export default ({
   .jumbo-paragraph {
     width: 300px;
   }
+
+  > img {
+    width: 450px;
+    position: relative;
+    bottom: 5%;
+    right: 10%;
+  }
 }
 
 </style>

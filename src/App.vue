@@ -2,7 +2,7 @@
   <div id="app">
     <Header :navItems="navItems"/>
     <MainContainer />
-    <Footer />
+    <Footer :resources="resources" :links="links" :contacts="contacts"/>
   </div>
 </template>
 
@@ -22,6 +22,32 @@ export default {
         'Blog',
         'Contact',
         'Portfolio',
+      ],
+      links: [
+        'Services',
+        'Contact',
+        'Blog'
+      ],
+      resources: [
+        'Art Design',
+        'Computer',
+        'IT News',
+        'Networking',
+        'Web Security'
+      ],
+      contacts: [
+        {
+          type: 'Address',
+          value: 'Patricia C. Amedee 4401 Waldeck Street Grapevine Nashville, Tx 76051'
+        },
+         {
+          type: 'Phone',
+          value: '+39(0) 101 0000 888'
+        },
+         {
+          type: 'Email',
+          value: 'info@yourdomain.com'
+        }
       ],
     }
   },

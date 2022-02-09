@@ -1,0 +1,105 @@
+@import '@/style/variables.scss';
+@import url('https://use.fontawesome.com/releases/v5.7.1/css/all.css');
+
+// BACKGROUND COLOR
+.blue-gradient {
+    background-color: $brg-blue;
+    background-image: linear-gradient(
+        $brg-blue, $brg-dark-blue
+    );
+}
+
+footer {
+    height: 40vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    // FOOTER TOP
+    .ft-top {
+        display: flex;
+        justify-content: space-between;
+        padding: 20px 40px;
+
+        .ft-top-box {
+            display: flex;
+            flex-direction: column;
+            width: calc(100% / 4 - 20px);
+            padding: 0 20px;
+            font-size: 12px;
+
+            .logo > img {
+                width: 100px;
+                margin-bottom: 30px;
+            }
+
+            h3 {
+                margin-bottom: 20px;
+                color: #fff;
+            }
+
+            .contact-type {
+                margin-right: 5px;
+                color: #fff;
+            }
+
+            p,
+            li,
+            .contact-value {
+                font-size: 12px;
+                color: #aaa;
+            }
+
+            li {
+                list-style: none;
+                margin-bottom: 5px;
+                cursor: pointer;
+
+                &:hover {
+                    color: #fff;
+                }
+            }
+        }
+
+        .resources > ul > li {
+            text-align: center;
+        }
+
+        .contacts {
+            width: 300px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+    
+            & div:nth-child(2) {
+                margin-bottom: 20px;
+            }
+        }
+    }
+
+    hr {
+        color: rgba(170, 170, 170, 0.212);
+    }
+    
+    // FOOTER BOTTOM
+    .ft-bottom {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 20px;
+        padding-bottom: 20px;
+    
+
+        .copyright {
+            font-size: 10px;
+            color: #aaa;
+            padding-left: 40px;
+        }
+
+        .fa-brands {
+            font-family: "Font Awesome 5 Free";
+            font-weight: 900;
+            color: #fff;
+        }
+    }
+}
