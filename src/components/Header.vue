@@ -5,7 +5,12 @@
     </div>
 
     <div class="nav-menu">
-      NAV
+      <ul>
+        <li v-for="(item, i) in navItems" :key="i" :item="item">
+          {{item}}
+        </li>
+      </ul>
+
       <button>Sign In</button>
     </div>
 
@@ -16,7 +21,9 @@
 <script>
 export default {
   name: 'Header',
-  
+  props: {
+    navItems: Array,
+  }
 }
 </script>
 
@@ -28,13 +35,41 @@ header {
   justify-content: space-between;
   align-items: center;
   height: 80px;
-  padding: 0 80px;
+  padding: 0 60px;
   background-color: $brg-blue; 
   color: #fff;
 
   .logo > img {
    width: 100px;
    height: 40px;
+  }
+
+  .nav-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 480px;
+    padding: 5px;
+
+    ul {
+      width: 350px;
+      display: flex;
+      justify-content: space-between;
+      padding: 0 5px;
+
+      li {
+        list-style: none;
+        font-size: 13px;
+        font-weight: 400;
+        color: #fff;
+        cursor: pointer;
+
+        &:hover {
+          color: $light-pink;
+          font-weight: bold;
+        }
+      }
+    }
   }
 }
 

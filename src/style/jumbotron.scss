@@ -9,15 +9,17 @@
 
 .container-jumbo {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    padding: 0 20px;
+    height: 70vh;
+    
 
     .jumbo-box {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        border: 2px solid #fff;
+        padding: 0 40px; 
+        
 
         .jumbo-title {
             font-size: 40px;
@@ -25,7 +27,6 @@
         }
 
         .jumbo-paragraph {
-            width: 300px;
             margin: 20px 0;
             font-size: 12px;
             font-weight: 400;

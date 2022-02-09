@@ -11,7 +11,7 @@
       </div>
 
       <div class="jumbo-box">
-        IMMAGINE
+        <img src="@/assets/images/header.png" alt="">
       </div>
     </div>
 </template>
@@ -28,12 +28,12 @@ export default ({
 @import '@/style/variables.scss';
 @import '@/style/jumbotron.scss';
 
-.container-jumbo {
-  height: 80vh;
+.jumbo-box {
+  width: 500px;
+  height: 450px;
 
-  .jumbo-box {
-    height: 400px;
-    width: 400px;
+  .jumbo-paragraph {
+    width: 300px;
   }
 }
 

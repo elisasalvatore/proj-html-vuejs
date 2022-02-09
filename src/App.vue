@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <Header />
+    <Header :navItems="navItems"/>
     <MainContainer />
     <Footer />
   </div>
@@ -13,6 +13,18 @@ import MainContainer from './components/MainContainer.vue'
 
 export default {
   name: 'App',
+  data() {
+    return {
+      navItems: [
+        'Home',
+        'About',
+        'Services',
+        'Blog',
+        'Contact',
+        'Portfolio',
+      ],
+    }
+  },
   components: {
     Header,
     MainContainer,
