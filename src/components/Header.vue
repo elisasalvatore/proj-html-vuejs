@@ -11,9 +11,8 @@
         </li>
       </ul>
 
-      <button>Sign In</button>
+      <button class="bt-header bg-blue-light-to-dark">Sign In</button>
     </div>
-
 
   </header>
 </template>
@@ -28,6 +27,7 @@ export default {
 </script>
 
 <style scoped lang="scss">
+@import '@/style/main.scss';
 @import '@/style/variables.scss';
 
 header {
@@ -42,6 +42,7 @@ header {
   .logo > img {
    width: 100px;
    height: 40px;
+   cursor: pointer;
   }
 
   .nav-menu {

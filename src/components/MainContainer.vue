@@ -6,7 +6,7 @@
         <Portfolio />
         <PriceList />
         <Blog />
-        <testimonial :testimonials="testimonials"/>
+        <testimonial :testimonials="testimonials" :sponsor="sponsor"/>
         <SubscribeUserEmail />
    </main>
 </template>
@@ -61,13 +61,6 @@ export default {
           paragraph: 'When, while the lovely valley teems with vapour around meand the meriadian sun strikes the upper'
         }     
       ],
-      // sponsor: [
-      //   'client-1-1',
-      //   'clienty-2',
-      //   'clienty-4',
-      //   'client-5',
-      //   'clienty-3',
-      // ],
       testimonials: [  //TESTIMONIALS DATA
         {
           id: 0,
@@ -93,6 +86,13 @@ export default {
           name:'Michkel Anegl',
           role: 'Marketing Management',
         }
+      ],
+      sponsor: [
+        'client-1-1',
+        'clienty-2',
+        'clienty-4',
+        'client-5',
+        'clienty-3',
       ],
     }
   },

@@ -9,11 +9,15 @@
                 <img :src="require(`../assets/images/${service.image}.png`)">
                 <div class="service-title">{{service.title}}</div>
                 <div class="service-paragraph">{{service.paragraph}}</div>
+
+                <div class="arrow">
+                    <div class="bg-pink-dark-to-light">&#8702;</div>
+                </div>
             </div>
         </div>
 
         <div class="bt-service">
-            <button>LARGE</button>  
+            <button class="bt-large bg-pink-dark-to-light">View All Services</button>  
         </div>
     </div>
 </template>
@@ -33,23 +37,22 @@ export default {
 
 .section-container {
     background-color: #fff;
+    margin-bottom: 20px;
 
     .services-container {
         display: flex;
         justify-content: space-between;
         height: 300px;
-        padding: 0 50px;
+        padding: 0 40px;
         
         .service-box {
             width: calc(100% / 4);
-            padding: 40px;
+            padding: 20px;
 
-
-                >img {
-                    width: 120px;
-                    height: 110px;
-                }
-
+            >img {
+                width: 120px;
+                height: 110px;
+            }
 
             .service-title {
                 margin: 20px 0;
@@ -57,11 +60,66 @@ export default {
             }
 
             .service-paragraph {
+                padding: 0 10px;
                 font-size: 11px;
                 letter-spacing: 0.5px;
                 color: $text-gray;
             }
+
+            .arrow {
+                display: none;
+
+                > .bg-pink-dark-to-light {
+                    margin: 20px auto;
+                    position: relative;
+                    top: 8%;
+                    width: 50px;
+                    height: 50px;
+                    line-height: 50px;
+                    border-radius: 50%;
+                    background-color: $dark-pink;
+                    font-size: 12px;
+                    background-color: $dark-pink;
+                    background-image: linear-gradient(
+                        to left top,
+                        $light-pink,
+                        $dark-pink, 
+                    );
+                }
+                
+            }
+
+            &:hover {
+                color: #fff;
+                background-color: $brg-blue;
+                border-radius: 20px;
+                
+                > img {
+                    width: 100px;
+                    height: 90px;
+                    padding: 9px;
+                    background-color: #fff;
+                    border-radius: 20px;
+                }
+
+                .service-paragraph {
+                    color: #fff;
+                }
+
+                .arrow {
+                    display: inline;
+                }
+                
+            }
         }
+
+    }
+
+    .bt-service {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 20px 0;
     }
 }
 </style>

@@ -11,8 +11,8 @@
             <p class="jumbo-paragraph">When, while the lovely valley teems with vapour around meand the meridian sun strikes the upper surface. Of the impenetrable folliage of my trees, and but a few stray gleams steal into the inner sanctuary.</p>
 
             <div class="container-buttons">
-             <button>MEDIUM</button>
-             <button>MEDIUM</button>
+             <button class="bt-medium bg-pink-dark-to-light">Try It Now</button>
+             <button class="bt-medium bg-blue-light-to-dark">Explore More</button>
             </div>
         </div>
     </div>
@@ -36,13 +36,17 @@ export default ({
     }
 
     .jumbo-title {
-        margin-top: 20px;
+        margin-top: 10px;
     }
 
-    button {
-        margin-top: 20px;
+    .jumbo-paragraph {
+        padding: 20px 0;
     }
-   
+
+    .container-buttons {
+        display: flex;
+        align-items: center;
+    }
 }
 
 .box-images{

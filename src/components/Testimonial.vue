@@ -11,7 +11,13 @@
                <div class="testimonial-review">{{testimonial.review}}</div>
                <div class="testimonial-name">{{testimonial.name}}</div>
                <div class="testimonial-role">{{testimonial.role}}</div>
+            </div>
+        
+        </div>
 
+        <div class="sponsor-container">
+            <div class="sponsor-box" v-for="(item, i) in sponsor" :key="i">
+                <img :src="require(`../assets/images/${sponsor[i]}.png`)">
             </div>
         </div>
     </div>
@@ -22,6 +28,7 @@ export default ({
     name: 'Testimonial',
     props: {
         testimonials: Array,
+        sponsor: Array,
     }
 })
 </script>
@@ -31,8 +38,7 @@ export default ({
 
 .section-container {
     background-color: #fff;
-    border: 2px solid red;
-
+    
     .testimonials-container {
         display: flex;
         justify-content: space-between;
@@ -74,6 +80,20 @@ export default ({
                 font-weight: 300;
             }
         }
+    }
+
+    .sponsor-container {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 20px 0;
+
+        .sponsor-box {
+            > img {
+                width: 70px;
+            }
+        }
+
     }
 }
 </style>

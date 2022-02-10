@@ -20,11 +20,14 @@
                     <div class="detail"><b>Extreme</b> Typography</div>
                     <div class="detail"><b>Exceptional</b> Design</div>
                 </div>
-                <button>LARGE</button>
+                
+                <button class="bt-large bt-order-gradient">Order  Now 
+                    <span class="arrow">&#8702;</span>
+                </button>
             </div>
             
             <!-- CARD TWO -->
-             <div class="card pink-gradient">
+            <div class="card pink-gradient">
                 <div class="number-background">60</div>
                 <h1 class="card-title">Developing</h1>
                 <div class="card-subtitle">PRODUCT</div>
@@ -38,7 +41,11 @@
                     <div class="detail"><b>Extreme</b> Typography</div>
                     <div class="detail"><b>Exceptional</b> Design</div>
                 </div>
-                <button>LARGE</button>
+
+                <button class="bt-large bt-order-white">Order  Now 
+                    <span class="arrow">&#8702;</span>
+                </button>
+
             </div>
             
             <!-- CARD THREE -->
@@ -56,7 +63,10 @@
                     <div class="detail"><b>Extreme</b> Typography</div>
                     <div class="detail"><b>Exceptional</b> Design</div>
                 </div>
-                <button>LARGE</button>
+                
+                <button class="bt-large bt-order-gradient">Order  Now 
+                    <span class="arrow">&#8702;</span>
+                </button>
             </div>
                 
         </div>

@@ -5,8 +5,8 @@
         <p class="jumbo-paragraph">When, while the lovely valley teems with vapour around meand the meridian sun strikes the upper surface.</p>
 
         <div class="container-buttons">
-          <button>MEDIUM</button>
-          <button>MEDIUM</button>
+          <button class="bt-medium bg-pink-dark-to-light">Try It Now</button>
+          <button class="bt-medium bg-blue-light-to-dark">Explore More</button>
         </div>
       </div>
 
@@ -34,6 +34,7 @@ export default ({
 
   .jumbo-paragraph {
     width: 300px;
+    padding: 20px 0;
   }
 
   > img {
@@ -41,6 +42,11 @@ export default ({
     position: relative;
     bottom: 5%;
     right: 10%;
+  }
+
+  .container-buttons {
+    display: flex;
+    align-items: center;
   }
 }
 

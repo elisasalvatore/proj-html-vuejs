@@ -1,3 +1,5 @@
+@import './variables.scss';
+
 * {
     margin: 0;
     padding: 0;
@@ -7,7 +9,69 @@
 
 // DA FINIRE
 button {
-    width: 80px;
-    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    margin-right: 20px;
+    padding: 10px;
     border-radius: 20px;
+    cursor: pointer;
+}
+
+.bt-header {
+    width: 75px;
+    height: 30px;
+    color: #fff;
+
+}
+
+.bt-medium {
+    width: 125px;
+    color: #fff;
+}
+
+.bt-large {
+    width: 160px;
+    color: #fff;
+}
+
+.bg-blue-light-to-dark {
+    font-size: 12px;
+    background-color: $dark-blue;
+    background-image: linear-gradient(
+        to right,
+        $light-blue,
+        $dark-blue, 
+    );
+
+    &:hover {
+        font-weight: 600;
+        background-color: $dark-pink;
+        background-image: linear-gradient(
+            to right,
+            $light-pink,
+            $dark-pink, 
+        );
+    }
+}
+
+.bg-pink-dark-to-light {
+    font-size: 12px;
+    background-color: $dark-pink;
+    background-image: linear-gradient(
+        to left,
+        $light-pink,
+        $dark-pink, 
+    );
+
+    &:hover {
+        font-weight: 600;
+        background-color: $dark-blue;
+        background-image: linear-gradient(
+            to left,
+            $light-blue,
+            $dark-blue, 
+        );
+    }
 }

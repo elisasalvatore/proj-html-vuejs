@@ -8,7 +8,7 @@
 
             <div class="subscribe-input">
                 <input type="text" placeholder="Enter your Email Address">
-                <button>MEDIUM</button>  
+                <button class="bt-medium bg-blue-light-to-dark">Subscribe</button>  
             </div>
         </div>
     </div>
@@ -28,7 +28,7 @@ export default {
     justify-content: center;
     align-items: center;
     height: 40vh;
-    padding: 20px;
+    padding: 30px;
     background-color: $brg-blue;
     background-image:
     // doppio gradiente: sopra blu (a sx chiaro a de scuro) sotto bianco
@@ -56,7 +56,6 @@ export default {
         border-radius: 20px;
         
         .subscribe-text {
-
             p {
                 font-size: 12px;
                 font-weight: lighter;
@@ -64,6 +63,19 @@ export default {
             }
         }
 
+        .subscribe-input {
+            input {
+                width: 300px;
+                border: none;
+                border-radius: 20px;
+                padding: 10px 20px;
+                color: #ccc;
+            }
+
+            button {
+                width: 90px;
+            }
+        }
     }
 }
 </style>

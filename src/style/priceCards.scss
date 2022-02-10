@@ -2,6 +2,7 @@
 
 .section-container {
     padding: 40px;
+    margin-bottom: 60px;
     color: white;
     background-color: $brg-blue;
     background-image:
@@ -34,7 +35,7 @@
             width: calc(100% / 3);
             min-width: 240px;
             max-width: 240px;
-            height: 300px;
+            height: 320px;
             border-radius: 20px;
             margin: 20px 10px;
             padding: 20px 0;
@@ -91,6 +92,31 @@
                 .detail {
                     margin: 5px 0;
                 }
+            }
+
+            button {
+                margin: 0 auto;
+                height: 30px;
+
+                .arrow {
+                    padding-left: 35px;
+                }
+
+            }
+
+            .bt-order-gradient {
+                font-weight: 600;
+                background-color: $dark-pink;
+                background-image: linear-gradient(
+                    to top,
+                    $light-pink,
+                    $dark-pink, 
+                );
+            }
+
+            .bt-order-white {
+                color: $light-pink;
+                background-color: #fff;
             }
         }
     }
