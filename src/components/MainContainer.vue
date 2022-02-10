@@ -5,7 +5,7 @@
         <JumbotronGrow />
         <Portfolio />
         <PriceList />
-        <Blog />
+        <blog :posts="posts" />
         <testimonial :testimonials="testimonials" :sponsor="sponsor"/>
         <SubscribeUserEmail />
    </main>
@@ -61,11 +61,25 @@ export default {
           paragraph: 'When, while the lovely valley teems with vapour around meand the meriadian sun strikes the upper'
         }     
       ],
+      posts: [ // BLOG DATA
+        {
+          date: 'April 21, 2019',
+          author: 'Paul',
+          title: 'Clearing Corporations get SEBI nod to invest in overnight funds',
+          paragraph: 'When, while the lovely valley teems with vapour around meand the meriadian sun strikes the upper'
+        },
+        {
+          date: 'April 21, 2019',
+          author: 'Paul',
+          title: 'Shabnam Dhillion, wife of RSSB chief Gurinder Dhillon, passes away in London',
+          paragraph: 'When, while the lovely valley teems with vapour around meand the meriadian sun strikes the upper'
+        },
+      ],
       testimonials: [  //TESTIMONIALS DATA
         {
           id: 0,
           photo: 'szabo-viktor-1266895-unsplash-1024x1024',
-          vote_average: 3,
+          vote_average: 5,
           review: 'When, while lovely valley teems with vapour around meand meridian sun strikes the upper impenetrable foliage of my trees, and but a thousand.',
           name:'Michkel Anegl',
           role: 'Marketing Management',
@@ -73,7 +87,7 @@ export default {
         {
           id: 1,
           photo: 'philipe-cavalcante-539505-unsplash-1024x1024',
-          vote_average: 3,
+          vote_average: 5,
           review: 'When, while lovely valley teems with vapour around meand meridian sun strikes the upper impenetrable foliage of my trees, and but a thousand.',
           name:'Michkel Anegl',
           role: 'Marketing Management',
@@ -81,7 +95,7 @@ export default {
         {
           id: 2,
           photo: 'fabio-spinelli-695744-unsplash-1024x1024',
-          vote_average: 3,
+          vote_average: 5,
           review: 'When, while lovely valley teems with vapour around meand meridian sun strikes the upper impenetrable foliage of my trees, and but a thousand.',
           name:'Michkel Anegl',
           role: 'Marketing Management',
@@ -98,3 +112,7 @@ export default {
   },
 }
 </script>
+
+<style lang="scss" scoped>
+
+</style>

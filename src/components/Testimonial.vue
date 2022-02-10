@@ -7,7 +7,7 @@
         <div class="testimonials-container" >
             <div class="testimonial-box" v-for="testimonial in testimonials" :key="testimonial.id">
                <img :src="require(`../assets/images/${testimonial.photo}.png`)">
-               <div class="testimonial-vote">{{testimonial.vote_average}}</div>
+               <div class="testimonial-vote"></div><stars-rating :vote="testimonial.vote_average"/>
                <div class="testimonial-review">{{testimonial.review}}</div>
                <div class="testimonial-name">{{testimonial.name}}</div>
                <div class="testimonial-role">{{testimonial.role}}</div>
@@ -24,8 +24,13 @@
 </template>
 
 <script>
+import StarsRating from './StarsRating.vue'
+
 export default ({
     name: 'Testimonial',
+    components: {
+        StarsRating,
+    },
     props: {
         testimonials: Array,
         sponsor: Array,
