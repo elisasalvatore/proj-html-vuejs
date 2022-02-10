@@ -38,15 +38,19 @@
                 © 2020 Phlox. All Rights Reserved.
             </div>
 
-            <!-- <div class="social"> 
-                <font-awesome-icon icon="fa-brands fa-instagram" />
-                <div class="linkedin"></div>
-                <div class="facebook"></div>
-                <div class="twitter"></div>
+            <div class="social"> 
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-linkedin-in"></i>
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-twitter"></i>
 
-                <div class="arrow-top"></div>
-                <div class="chat"></div>
-            </div> -->
+                <span class="arrow-up">
+                    <span>&#x2191;</span>
+                </span>
+                <span class="chat">
+                    <i class="far fa-comment"></i>
+                </span>
+            </div>
 
         </div>
     </footer>
