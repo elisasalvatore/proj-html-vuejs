@@ -79,7 +79,7 @@ export default {
         {
           id: 0,
           photo: 'szabo-viktor-1266895-unsplash-1024x1024',
-          vote_average: 5,
+          vote_average: 3,
           review: 'When, while lovely valley teems with vapour around meand meridian sun strikes the upper impenetrable foliage of my trees, and but a thousand.',
           name:'Michkel Anegl',
           role: 'Marketing Management',
@@ -87,7 +87,7 @@ export default {
         {
           id: 1,
           photo: 'philipe-cavalcante-539505-unsplash-1024x1024',
-          vote_average: 5,
+          vote_average: 3,
           review: 'When, while lovely valley teems with vapour around meand meridian sun strikes the upper impenetrable foliage of my trees, and but a thousand.',
           name:'Michkel Anegl',
           role: 'Marketing Management',
@@ -95,7 +95,7 @@ export default {
         {
           id: 2,
           photo: 'fabio-spinelli-695744-unsplash-1024x1024',
-          vote_average: 5,
+          vote_average: 3,
           review: 'When, while lovely valley teems with vapour around meand meridian sun strikes the upper impenetrable foliage of my trees, and but a thousand.',
           name:'Michkel Anegl',
           role: 'Marketing Management',

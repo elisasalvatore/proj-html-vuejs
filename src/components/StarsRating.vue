@@ -1,7 +1,9 @@
 
 <template>
     <span>
-        <i v-for="(star, index) in stars" :key="index" class="far fa-star"></i>
+        <i v-for="(star, index) in stars" :key="index" class="fas fa-star"></i>
+        <i class="far fa-star"></i>
+        <i class="far fa-star"></i>
     </span>
 </template>
 
