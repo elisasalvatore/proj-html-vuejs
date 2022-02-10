@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <Header :navItems="navItems"/>
-    <MainContainer :services="services"/>
+    <main-container />
     <Footer :resources="resources" :links="links" :contacts="contacts"/>
   </div>
 </template>
@@ -23,32 +23,6 @@ export default {
         'Contact',
         'Portfolio',
       ],
-      // services: [ //SERVICES SECTION
-      //   {
-      //     id: 1,
-      //     image:'@/assets/images/Group-247.png',
-      //     title: 'Data Analysis',
-      //     paragraph: 'When, why the lovely valley teems with vapour around meand the meriadian sun strikes the upper'
-      //   },
-      //   {
-      //     id: 2,
-      //     image:'@/assets/images/Group-247.png',
-      //     title: 'Data Analysis',
-      //     paragraph: 'When, why the lovely valley teems with vapour around meand the meriadian sun strikes the upper'
-      //   },
-      //   {
-      //     id: 3,
-      //     image:'@/assets/images/Group-247.png',
-      //     title: 'Data Analysis',
-      //     paragraph: 'When, why the lovely valley teems with vapour around meand the meriadian sun strikes the upper'
-      //   },
-      //   {
-      //     id: 4,
-      //     image:'@/assets/images/Group-247.png',
-      //     title: 'Data Analysis',
-      //     paragraph: 'When, why the lovely valley teems with vapour around meand the meriadian sun strikes the upper'
-      //   }     
-      // ],
       links: [ // FOOTER 
         'Services',
         'Contact',

@@ -1,7 +1,6 @@
 @import './variables.scss';
 
 .section-container {
-    height: 80vh;
     padding: 40px;
     color: white;
     background-color: $brg-blue;
@@ -11,13 +10,7 @@
         $brg-blue 60%,
         #fff 40%,
     );
-
-    p {
-        width: 480px;
-        margin: 0 auto;
-        padding-bottom: 20px;
-    }
-
+    
     .price-cards {
         display: flex;
         justify-content: space-around;

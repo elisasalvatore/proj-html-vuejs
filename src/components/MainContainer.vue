@@ -1,12 +1,12 @@
 <template>
    <main>
         <JumbotronPlanning />
-        <OurServices />
+        <our-services :services="services"/>
         <JumbotronGrow />
         <Portfolio />
         <PriceList />
         <Blog />
-        <Testimonial />
+        <testimonial :testimonials="testimonials"/>
         <SubscribeUserEmail />
    </main>
 </template>
@@ -18,20 +18,83 @@ import JumbotronGrow from './JumbotronGrow.vue'
 import Portfolio from './Portfolio.vue'
 import PriceList from './PriceList.vue'
 import Blog from './Blog.vue'
-import Testimonial from './Testimonial.vue'
+import testimonial from './Testimonial.vue'
 import SubscribeUserEmail from './SubscribeUserEmail.vue'
 
 export default {
   name: 'MainContainer',
-  components: {
+    components: {
     JumbotronPlanning,
     OurServices,
     JumbotronGrow,
     Portfolio,
     PriceList,
     Blog,
-    Testimonial,
+    testimonial,
     SubscribeUserEmail,
+  },
+  data() {
+    return {
+      services: [ //SERVICES DATA
+        {
+          id: 0,
+          image: 'Group-247',
+          title: 'Data Analysis',
+          paragraph: 'When, while the lovely valley teems with vapour around meand the meriadian sun strikes the upper'
+        },
+        {
+          id: 1,
+          image: 'Group-567',
+          title: 'SEO Optimization',
+          paragraph: 'When, while the lovely valley teems with vapour around meand the meriadian sun strikes the upper'
+        },
+        {
+          id: 2,
+          image:'Group-538',
+          title: 'Security Data',
+          paragraph: 'When, while the lovely valley teems with vapour around meand the meriadian sun strikes the upper'
+        },
+        {
+          id: 3,
+          image:'Group-566',
+          title: 'Branding Strategy',
+          paragraph: 'When, while the lovely valley teems with vapour around meand the meriadian sun strikes the upper'
+        }     
+      ],
+      // sponsor: [
+      //   'client-1-1',
+      //   'clienty-2',
+      //   'clienty-4',
+      //   'client-5',
+      //   'clienty-3',
+      // ],
+      testimonials: [  //TESTIMONIALS DATA
+        {
+          id: 0,
+          photo: 'szabo-viktor-1266895-unsplash-1024x1024',
+          vote_average: 3,
+          review: 'When, while lovely valley teems with vapour around meand meridian sun strikes the upper impenetrable foliage of my trees, and but a thousand.',
+          name:'Michkel Anegl',
+          role: 'Marketing Management',
+        },
+        {
+          id: 1,
+          photo: 'philipe-cavalcante-539505-unsplash-1024x1024',
+          vote_average: 3,
+          review: 'When, while lovely valley teems with vapour around meand meridian sun strikes the upper impenetrable foliage of my trees, and but a thousand.',
+          name:'Michkel Anegl',
+          role: 'Marketing Management',
+        },
+        {
+          id: 2,
+          photo: 'fabio-spinelli-695744-unsplash-1024x1024',
+          vote_average: 3,
+          review: 'When, while lovely valley teems with vapour around meand meridian sun strikes the upper impenetrable foliage of my trees, and but a thousand.',
+          name:'Michkel Anegl',
+          role: 'Marketing Management',
+        }
+      ],
+    }
   },
 }
 </script>
