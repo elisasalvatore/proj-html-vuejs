@@ -17,7 +17,7 @@
         </div>
 
         <div class="bt-service">
-            <button class="bt-large bg-pink-dark-to-light">View All Services</button>  
+            <button class="bt-large bg-pink-dark-to-light shadow-pink">View All Services</button>  
         </div>
     </div>
 </template>
@@ -68,6 +68,7 @@ export default {
 
             .arrow {
                 display: none;
+                cursor: pointer;
 
                 > .bg-pink-dark-to-light {
                     margin: 20px auto;
@@ -78,7 +79,7 @@ export default {
                     line-height: 50px;
                     border-radius: 50%;
                     background-color: $dark-pink;
-                    font-size: 12px;
+                    font-size: 25px;
                     background-color: $dark-pink;
                     background-image: linear-gradient(
                         to left top,

@@ -7,7 +7,6 @@
     font-family: 'Roboto', sans-serif;
 }
 
-// DA FINIRE
 button {
     display: flex;
     justify-content: center;
@@ -34,6 +33,14 @@ button {
 .bt-large {
     width: 160px;
     color: #fff;
+}
+
+.shadow-gray {
+    box-shadow: 2px 0px 10px 0px #dedede6c;
+}
+
+.shadow-pink {
+    box-shadow: 2px 2px 20px 10px rgba(238, 133, 150, 0.4);
 }
 
 .bg-blue-light-to-dark {

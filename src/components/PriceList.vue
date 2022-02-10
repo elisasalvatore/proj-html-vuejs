@@ -6,7 +6,7 @@
 
         <div class="price-cards">
             <!-- CARD ONE -->
-            <div class="card">
+            <div class="card shadow-gray">
                 <div class="number-background">40</div>
                 <h1 class="card-title">Designing</h1>
                 <div class="card-subtitle">PROCESS</div>
@@ -21,13 +21,13 @@
                     <div class="detail"><b>Exceptional</b> Design</div>
                 </div>
                 
-                <button class="bt-large bt-order-gradient">Order  Now 
+                <button class="bt-large bt-order-gradient shadow-pink">Order  Now 
                     <span class="arrow">&#8702;</span>
                 </button>
             </div>
             
             <!-- CARD TWO -->
-            <div class="card pink-gradient">
+            <div class="card pink-gradient shadow-gray">
                 <div class="number-background">60</div>
                 <h1 class="card-title">Developing</h1>
                 <div class="card-subtitle">PRODUCT</div>
@@ -49,7 +49,7 @@
             </div>
             
             <!-- CARD THREE -->
-             <div class="card">
+             <div class="card shadow-gray">
                 <div class="number-background">80</div>
                 <h1 class="card-title">Supporting</h1>
                 <div class="card-subtitle">CLIENTS</div>
@@ -64,7 +64,7 @@
                     <div class="detail"><b>Exceptional</b> Design</div>
                 </div>
                 
-                <button class="bt-large bt-order-gradient">Order  Now 
+                <button class="bt-large bt-order-gradient shadow-pink">Order  Now 
                     <span class="arrow">&#8702;</span>
                 </button>
             </div>
