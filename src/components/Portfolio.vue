@@ -152,6 +152,20 @@ export default {
                     color: $text-gray;
                 }
             }
+
+            &:hover { 
+                color: #fff;
+                background-color: $dark-pink;
+                background-image: linear-gradient(
+                    to left,
+                    $light-pink,
+                    $dark-pink, 
+                );
+
+                .category {
+                    color: #fff;
+                }
+            }
         }
     }
 
