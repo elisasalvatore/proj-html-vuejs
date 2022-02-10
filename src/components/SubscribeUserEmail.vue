@@ -52,7 +52,7 @@ export default {
         justify-content: space-between;
         align-items: center;
         width: 900px;
-        padding: 50px 25px;
+        padding: 40px 20px;
         border-radius: 20px;
         
         .subscribe-text {
@@ -64,16 +64,21 @@ export default {
         }
 
         .subscribe-input {
+            display: flex;
+            justify-content: end;
+            align-items: center;
+
             input {
-                width: 300px;
+                width: 220px;
                 border: none;
                 border-radius: 20px;
-                padding: 10px 20px;
+                padding: 10px;
                 color: #ccc;
             }
 
             button {
                 width: 90px;
+                margin: 0 5px;
             }
         }
     }
