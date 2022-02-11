@@ -51,7 +51,6 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-@import '@/style/main.scss';
 @import '@/style/sectionsHeading.scss';
 
 .section-container {
@@ -166,7 +165,7 @@ export default {
 
         .bg-blue-dark-to-light {
             font-size: 12px;
-            background-color: $brg-dark-blue,;
+            background-color: $brg-dark-blue;
             background-image: linear-gradient(
                 to top left,
                 $brg-blue,

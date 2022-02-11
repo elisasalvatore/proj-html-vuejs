@@ -80,9 +80,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-@import '@/style/main.scss';
 @import '@/style/priceCards.scss';
 @import '@/style/sectionsHeading.scss';
-@import '@/style/variables.scss';
 
 </style>

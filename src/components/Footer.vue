@@ -69,7 +69,5 @@ export default {
 
 <style lang="scss" scoped>
 @import '@/style/footer.scss';
-@import '@/style/main.scss';
-@import url('https://use.fontawesome.com/releases/v5.7.1/css/all.css');
 
 </style>

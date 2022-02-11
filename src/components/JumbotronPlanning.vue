@@ -20,13 +20,10 @@
 
 export default ({
   name: 'JumbotronPlanning',
-
 })
 </script>
 
 <style lang="scss" scoped>
-@import '@/style/main.scss';
-@import '@/style/variables.scss';
 @import '@/style/jumbotron.scss';
 
 .jumbo-box {

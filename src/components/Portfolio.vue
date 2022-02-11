@@ -79,14 +79,12 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-@import '@/style/main.scss';
-@import '@/style/variables.scss';
 @import '@/style/sectionsHeading.scss';
-
 
 .section-container {
     text-align: start;
     background-color: #fff;
+    margin-bottom: 20px;
 
     .section-top {
         display: flex;
@@ -121,6 +119,7 @@ export default {
 
     .section-down {
         margin: 0 auto;
+        height: 325px;
         display: flex;
         justify-content: center;
         padding: 20px 0;
@@ -135,7 +134,6 @@ export default {
             
             > img {
                 width: 100%;
-                max-width: 260px;
                 min-height: 200px;
                 border-radius: 20px;
             }
@@ -195,7 +193,6 @@ export default {
         justify-content: space-between;
         align-items: center;
         width: 100px;
-        height: 60px;
 
         .point {
             width: 10px;

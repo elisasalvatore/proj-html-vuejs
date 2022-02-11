@@ -21,7 +21,6 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-@import '@/style/main.scss';
 @import '@/style/variables.scss';
 
 .container {
@@ -71,12 +70,15 @@ export default {
             display: flex;
             justify-content: end;
             align-items: center;
+            padding: 4px;
+            border-radius: 25px;
+            background-color: #fff;
 
             input {
-                width: 220px;
+                width: 200px;
                 border: none;
-                border-radius: 20px;
                 padding: 10px;
+                border-radius: 20px;
                 color: #ccc;
             }
 

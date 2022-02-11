@@ -27,7 +27,6 @@ export default {
 </script>
 
 <style scoped lang="scss">
-@import '@/style/main.scss';
 @import '@/style/variables.scss';
 
 header {
