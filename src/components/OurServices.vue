@@ -32,11 +32,12 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@import '@/style/main.scss';
 @import '@/style/variables.scss';
 @import '@/style/sectionsHeading.scss';
 
 .section-container {
-    width: 1200px;
+    min-width: 900px;
     background-color: #fff;
     padding-bottom: 40px;
 
@@ -49,6 +50,7 @@ export default {
         .service-box {
             width: calc(100% / 4);
             padding: 20px;
+            margin-bottom: 20px;
 
             >img {
                 width: 120px;
@@ -57,23 +59,24 @@ export default {
             }
 
             .service-title {
-                margin: 20px 0;
+                padding: 10px;
                 font-weight: 500;
             }
 
             .service-paragraph {
-                padding: 0 10px;
+                padding: 10px;
                 font-size: 11px;
                 letter-spacing: 0.5px;
                 color: $text-gray;
             }
+                
 
             .arrow {
                 display: none;
                 cursor: pointer;
 
                 > .bg-pink-dark-to-light {
-                    margin: 20px auto;
+                    margin: 0 auto;
                     width: 50px;
                     height: 50px;
                     line-height: 50px;

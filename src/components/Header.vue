@@ -35,13 +35,13 @@ header {
   justify-content: space-between;
   align-items: center;
   height: 80px;
-  padding: 0 60px;
   background-color: $brg-blue; 
   color: #fff;
 
   .logo > img {
    width: 100px;
    height: 40px;
+   padding-left: 40px;
    cursor: pointer;
   }
 

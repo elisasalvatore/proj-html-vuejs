@@ -39,6 +39,7 @@ export default ({
 </script>
 
 <style lang="scss" scoped>
+@import '@/style/main.scss';
 @import '@/style/sectionsHeading.scss';
 
 .section-container {

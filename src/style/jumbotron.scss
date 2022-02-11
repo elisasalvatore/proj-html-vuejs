@@ -17,6 +17,8 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
+        width: 500px;
+        height: 450px;
         padding: 0 40px; 
         
 
@@ -26,10 +28,17 @@
         }
 
         .jumbo-paragraph {
+            width: 300px;
+            padding: 20px 0;
             margin: 20px 0;
             font-size: 12px;
             font-weight: 400;
             color: $light-blue;
+        }
+
+        .container-buttons {
+            display: flex;
+            align-items: center;
         }
     }
 

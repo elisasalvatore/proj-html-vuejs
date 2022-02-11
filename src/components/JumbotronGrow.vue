@@ -26,26 +26,16 @@ export default ({
 </script>
 
 <style lang="scss" scoped>
+@import '@/style/main.scss';
 @import '@/style/variables.scss';
 @import '@/style/jumbotron.scss';
 
 .jumbo-box {
+    
     > p {
+        margin-bottom: 10px;
         font-size: 12px;
         color: #fff;
-    }
-
-    .jumbo-title {
-        margin-top: 10px;
-    }
-
-    .jumbo-paragraph {
-        padding: 20px 0;
-    }
-
-    .container-buttons {
-        display: flex;
-        align-items: center;
     }
 }
 
@@ -56,15 +46,15 @@ export default ({
 
     .man {
         position: absolute;
-        top: 5%;
-        left: 30%;
+        top: 20%;
+        left: 20%;
         width: 280px;
     }
 
     .graphic {
         position: absolute;
-        left: 20%;
-        bottom: 20%;
+        top: 15%;
+        left: 15%;
         width: 280px;   
     }
 }

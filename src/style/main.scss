@@ -7,6 +7,13 @@
     font-family: 'Roboto', sans-serif;
 }
 
+header,
+footer,
+.container-jumbo,
+.section-container {
+    width: 100vw;
+}
+
 button {
     display: flex;
     justify-content: center;

@@ -51,10 +51,10 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@import '@/style/main.scss';
 @import '@/style/sectionsHeading.scss';
 
 .section-container {
-    padding-left: 25px;
     
     .posts-container {
         display: flex;
@@ -98,9 +98,10 @@ export default {
 
         .container-small-posts {
             display: flex;
-            justify-content: space-around;
-            width: 600px;
-            padding-left: 30px;
+            justify-content: space-between;
+            padding: 20px;
+
+           
 
             .box-small-post {
                 display: flex;
@@ -109,9 +110,12 @@ export default {
                 align-items: start;
                 width: 200px;
                 height: 300px;
-                margin-right: 20px;
-                padding: 0 30px;
+                padding-left: 25px;
                 border-radius: 20px;
+
+                &:first-child {
+                    margin-right: 30px;
+                }
 
                 .title,
                 .paragraph {

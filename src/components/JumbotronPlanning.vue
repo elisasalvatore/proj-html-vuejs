@@ -25,26 +25,14 @@ export default ({
 </script>
 
 <style lang="scss" scoped>
+@import '@/style/main.scss';
 @import '@/style/variables.scss';
 @import '@/style/jumbotron.scss';
 
 .jumbo-box {
-  width: 500px;
-  height: 450px;
-
-  .jumbo-paragraph {
-    width: 300px;
-    padding: 20px 0;
-  }
-
   > img {
     width: 400px;
     padding-right: 20px;
-  }
-
-  .container-buttons {
-    display: flex;
-    align-items: center;
   }
 }
 

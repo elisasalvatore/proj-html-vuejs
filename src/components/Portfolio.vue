@@ -79,6 +79,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@import '@/style/main.scss';
 @import '@/style/variables.scss';
 @import '@/style/sectionsHeading.scss';
 
@@ -122,7 +123,6 @@ export default {
         margin: 0 auto;
         display: flex;
         justify-content: center;
-        width: 1200px; // da togliere se si rende lo slider dinamico
         padding: 20px 0;
 
         .slider {
@@ -135,8 +135,8 @@ export default {
             
             > img {
                 width: 100%;
-                min-width: 200px;
-                height: 200px;
+                max-width: 260px;
+                min-height: 200px;
                 border-radius: 20px;
             }
 
