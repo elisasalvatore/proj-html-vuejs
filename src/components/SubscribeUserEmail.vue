@@ -27,7 +27,7 @@ export default {
     display:flex;
     justify-content: center;
     align-items: center;
-    height: 40vh;
+    height: 200px;
     padding: 30px;
     background-color: $brg-blue;
     background-image:
@@ -52,10 +52,13 @@ export default {
         justify-content: space-between;
         align-items: center;
         width: 900px;
-        padding: 40px 20px;
+        height: 60px;
+        padding: 50px 25px;
         border-radius: 20px;
         
         .subscribe-text {
+            width: 510px;
+
             p {
                 font-size: 12px;
                 font-weight: lighter;

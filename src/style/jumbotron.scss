@@ -9,11 +9,9 @@
 
 .container-jumbo {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    height: 70vh;
-    padding: 0 40px;
-    
+    height: 420px;
 
     .jumbo-box {
         display: flex;

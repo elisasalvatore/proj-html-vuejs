@@ -61,13 +61,12 @@ header {
       li {
         list-style: none;
         font-size: 13px;
-        font-weight: 400;
+        font-weight: 600;
         color: #fff;
         cursor: pointer;
 
         &:hover {
           color: $light-pink;
-          font-weight: bold;
         }
       }
     }

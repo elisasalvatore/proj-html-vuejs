@@ -84,10 +84,8 @@ export default {
 
 
 .section-container {
-    height: 70vh;
     text-align: start;
     background-color: #fff;
-    margin: 20px 0;
 
     .section-top {
         display: flex;
@@ -97,6 +95,7 @@ export default {
 
         .arrows-slider  {
             display: flex;
+            justify-content: center;
             align-items: center;
             
             > button {
@@ -120,27 +119,32 @@ export default {
     }
 
     .section-down {
+        margin: 0 auto;
         display: flex;
-        margin: 20px 0;
+        justify-content: center;
+        width: 1200px; // da togliere se si rende lo slider dinamico
+        padding: 20px 0;
 
         .slider {
             justify-content: space-between;
             align-items: center;
-            width: 240px;
-            margin: 20px;
+            width: calc(100% / 4 - 60px);
+            margin: 30px;
             background-color: #fff;
             border-radius: 20px;
             
             > img {
-                width: 240px;
-                height: 180px;
+                width: 100%;
+                min-width: 200px;
+                height: 200px;
                 border-radius: 20px;
             }
 
             .slider-text {
                 display: flex;
-                justify-content: space-around;
-                padding: 20px 0;
+                justify-content: space-between;
+                align-items: center;
+                padding: 20px 10px ;
 
                 .title {
                     font-size: 11px;
@@ -148,11 +152,27 @@ export default {
                 }
 
                 .category {
-                    font-size: 8px;
+                    font-size: 10px;
                     color: $text-gray;
                 }
             }
 
+            // da DISATTIVARE in caso di slider dinamico
+            &:first-of-type {
+                color: #fff;
+                background-color: $dark-pink;
+                background-image: linear-gradient(
+                    to left,
+                    $light-pink,
+                    $dark-pink, 
+                );
+
+                .category {
+                    color: #fff;
+                }
+            }
+
+            // HOVER SLIDER DINAMICO
             &:hover { 
                 color: #fff;
                 background-color: $dark-pink;
@@ -184,13 +204,19 @@ export default {
             margin: 0 5px;
             background-color: $text-gray;
 
-            .active {
-                background-color: $dark-pink;
+            // DA DISATTIVARE in caso di slider dinamico
+            &:first-of-type {
+                background-color: $light-pink;
             }
+            
+            // DA ATTIVARE in caso di slider dinamico
+            // .active {
+            //     background-color: $light-pink;
+            // }
 
-            .disable {
-                background-color: $text-gray;
-            }
+            // .disable {
+            //     background-color: $text-gray;
+            // }
         }
 
     }

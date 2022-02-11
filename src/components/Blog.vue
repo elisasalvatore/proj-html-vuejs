@@ -6,6 +6,7 @@
 
         <div class="posts-container">
             <div class="long-post">
+
                 <div class="long-text-box">
                     <div class="date">
                         April 21, 2019 
@@ -53,23 +54,25 @@ export default {
 @import '@/style/sectionsHeading.scss';
 
 .section-container {
-    background-color: #fff;
-    padding-left: 10px;
-
+    padding-left: 25px;
+    
     .posts-container {
         display: flex;
+        justify-content: center;
         align-items: center;
         height: 350px;
-        padding: 0 40px;
         font-size: 11px;
+        position: relative;
    
         .long-post {
             display: flex;
-            width: 50%;
+            width: 600px;
             height: 250px;
             padding: 30px;
             background: url('../assets/images/headway-537308-unsplash-1380x703.jpg');
-            filter: brightness(80%);
+            // filter: brightness(0.5);
+            // background-color: #333;
+            // backdrop-filter: brightness(50%);
             background-size: cover;
             background-position: center;
             border-radius: 20px;
@@ -96,7 +99,7 @@ export default {
         .container-small-posts {
             display: flex;
             justify-content: space-around;
-            width: 50%;
+            width: 600px;
             padding-left: 30px;
 
             .box-small-post {
@@ -104,7 +107,7 @@ export default {
                 flex-direction: column;
                 justify-content: center;
                 align-items: start;
-                width: 50%;
+                width: 200px;
                 height: 300px;
                 margin-right: 20px;
                 padding: 0 30px;
@@ -146,7 +149,7 @@ export default {
             text-overflow: ellipsis;
             white-space: nowrap;
 
-            // mostare paragrafo in hover
+            // per mostare paragrafo completo quando in hover
             &:hover {
                 white-space: unset;
                 text-overflow: unset;

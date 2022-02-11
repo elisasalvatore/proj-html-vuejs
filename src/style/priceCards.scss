@@ -2,7 +2,7 @@
 
 .section-container {
     padding: 40px;
-    margin-bottom: 60px;
+    padding-bottom: 60px;
     color: white;
     background-color: $brg-blue;
     background-image:
@@ -13,6 +13,8 @@
     );
     
     .price-cards {
+        width: 1000px;
+        margin: 0 auto;
         display: flex;
         justify-content: space-around;
 

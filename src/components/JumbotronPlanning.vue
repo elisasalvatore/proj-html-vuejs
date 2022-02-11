@@ -38,10 +38,8 @@ export default ({
   }
 
   > img {
-    width: 450px;
-    position: relative;
-    bottom: 5%;
-    right: 10%;
+    width: 400px;
+    padding-right: 20px;
   }
 
   .container-buttons {

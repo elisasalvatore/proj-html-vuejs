@@ -36,8 +36,9 @@ export default {
 @import '@/style/sectionsHeading.scss';
 
 .section-container {
+    width: 1200px;
     background-color: #fff;
-    margin-bottom: 20px;
+    padding-bottom: 40px;
 
     .services-container {
         display: flex;
@@ -52,6 +53,7 @@ export default {
             >img {
                 width: 120px;
                 height: 110px;
+                padding: 10px;
             }
 
             .service-title {
@@ -72,8 +74,6 @@ export default {
 
                 > .bg-pink-dark-to-light {
                     margin: 20px auto;
-                    position: relative;
-                    top: 8%;
                     width: 50px;
                     height: 50px;
                     line-height: 50px;
@@ -96,9 +96,8 @@ export default {
                 border-radius: 20px;
                 
                 > img {
-                    width: 100px;
-                    height: 90px;
-                    padding: 9px;
+                    // width: 100px;
+                    // height: 90px;
                     background-color: #fff;
                     border-radius: 20px;
                 }
@@ -121,6 +120,10 @@ export default {
         justify-content: center;
         align-items: center;
         margin: 20px 0;
+
+        button:hover {
+            box-shadow: 2px 2px 20px 10px #1d418557;
+        }
     }
 }
 </style>

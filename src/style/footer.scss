@@ -9,8 +9,8 @@
 }
 
 footer {
-    height: 40vh;
-    display:flex;
+    height: 250px;
+    display: flex;
     flex-direction: column;
     justify-content: space-between;
 
@@ -108,7 +108,7 @@ footer {
 
             .arrow-up {
                 position: relative;
-                bottom: 70%;
+                bottom: 80%;
                 background-color: #fff;
                 padding: 5px 10px;
                 border-radius: 50%;
